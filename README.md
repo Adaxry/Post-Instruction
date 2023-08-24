@@ -20,15 +20,23 @@ Current instruct-following data generally put the task instruction before the in
 
 ## Quick to Use
 
++ Organizing original data into Post-Ins format
+  ```bash
+  sh  scripts/organize_data.sh  # you can replace the file with yours in this script
+  ```
+  
+
+
+
+
 ## Experiments
 
 <p align="center">
-  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/zero_shot.png" alt="wmt" width="800"/>
+  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/wmt22.png" alt="wmt" width="800"/>
 </p>
 <p align="center">
-  Results on WMT22 for zero-shot translation.
+  Results on WMT22 for machine translation.
 </p>
-
 
 <p align="center">
   <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/cnndm.png" alt="wmt" width="400"/>
@@ -39,10 +47,10 @@ Current instruct-following data generally put the task instruction before the in
 
 ## Self-Attention HeatMap
 <p align="center">
-  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/heatmap.png" alt="wmt" width="800"/>
+  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/heatmap.png" alt="wmt" width="900"/>
 </p>
 <p align="center">
-  Post-Ins pay more attentions on the specific task instruction, while Pre-Ins mainly foucs on the source input.
+  Pre-Ins mainly foucs on the source input, while Post-Ins pay more attentions on the specific task instruction.
 </p>
 
 ## Contact
