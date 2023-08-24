@@ -37,12 +37,13 @@ Current instruct-following data generally put the task instruction before the in
 
 
 ## Experiments
+We provide all the model [outputs](https://github.com/Adaxry/Post-Instruction/tree/main/results) for both the machine translation and text summarization task for an easy comparison. Below are partial results of the experiment:
 
 <p align="center">
   <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/wmt22.png" alt="wmt" width="800"/>
 </p>
 <p align="center">
-  Results on WMT22 for machine translation.
+  Results on WMT22 for machine translation. 
 </p>
 
 <p align="center">
