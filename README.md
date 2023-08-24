@@ -22,11 +22,18 @@ Current instruct-following data generally put the task instruction before the in
 
 + Organizing original data into Post-Ins format
   ```bash
-  sh  scripts/organize_data.sh  # you can replace the file with yours in this script
+  sh scripts/organize_data.sh    # you can replace the file with yours in this script
   ```
   
++ Fine-tuning LLMs
+  ```bash
+  sh scripts/train_wmt.sh    # take the machine translation as an example
+  ```
 
-
++ Testing
+  ```bash
+  sh scripts/test_wmt.sh   # take the machine translation as an example
+  ```
 
 
 ## Experiments
