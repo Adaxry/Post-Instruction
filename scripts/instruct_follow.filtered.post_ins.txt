@@ -1,0 +1,15 @@
+Translate the above sentences from [SRC] to [TGT].
+Translate the above sentence from [SRC] to [TGT]:
+Please provide the [TGT] translation for the above sentences.
+Convert the foregoing sentences from [SRC] into [TGT].
+Transform the foregoing sentences from [SRC] language to [TGT] language.
+Turn the above sentences from their [SRC] version to the [TGT] version.
+Adapt the above mentioned sentences from [SRC] to the [TGT] language.
+Transpose the previous sentences from the [SRC] format to the [TGT] format.
+How can the foregoing sentences be interpreted in [TGT]?
+Could you supply the [TGT] translation for the foregoing sentences?
+I'd appreciate it if you could present the [TGT] translation for the above sentences.
+Can you deliver the [TGT] translation for the above mentioned sentences?
+Kindly submit the [TGT] interpretation for the previous sentences.
+Please make available the [TGT] translation for the previous line sentences.
+Can you reveal the [TGT] translation of the sentence from the previous line?
