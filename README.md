@@ -4,9 +4,10 @@
 ## Contents
 
 * [Overview](#overview)
+* [Requirements](#requirements)
 * [Quick to Use](#quick-to-use)
 * [Experiments](#experiments)
-* [Self-Attention HeatMap](#self-attention-heatmap) 
+* [Citation](#citation)
 * [Contact](#contact)
 
 ## Overview
@@ -60,13 +61,29 @@ We provide all the model [outputs](https://github.com/Adaxry/Post-Instruction/tr
   Results on CNN/DailyMail for long text summarization.
 </p>
 
-## Self-Attention HeatMap
 <p align="center">
   <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/heatmap.png" alt="wmt" width="900"/>
 </p>
 <p align="center">
   Pre-Ins mainly foucs on the source input, while Post-Ins pay more attentions on the specific task instruction.
 </p>
+
+
+## Citation
+Please cite this paper if you find this repo useful.
+```
+@inproceedings{liu_ss_decoding_2021,
+    title = "Scheduled Sampling Based on Decoding Steps for Neural Machine Translation",
+    author = "Liu, Yijin  and
+      Meng, Fandong  and
+      Chen, Yufeng  and
+      Xu, Jinan  and
+      Zhou, Jie",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    year = "2021",
+    address = "Online"
+}
+```
 
 ## Contact
 Please feel free to contact us (yijinliu@tencent.com) for any further questions.
