@@ -10,3 +10,5 @@ We treat the official [Alpaca](https://github.com/tatsu-lab/stanford_alpaca) as 
 ## CNN/DailyMail
 We follow the pre-processing scrips of [ProphetNet](https://github.com/microsoft/ProphetNet), and provide the processed data at [here](https://drive.google.com/drive/folders/1voq98WLTOczqLRXzJKFTqcnYrjg7MZyT)
 
+## MQM
+We use the [processed MQM](https://drive.google.com/file/d/1pQmj-eFwHycSkQtuAB3OKF47bHPxDVon/view) data provided by [Parrot](https://github.com/wxjiao/ParroT/tree/master).
