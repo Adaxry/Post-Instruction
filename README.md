@@ -18,10 +18,11 @@
 Current instruct-following data generally put the task instruction before the input sentence (referred as "Pre-Ins") for sequqnce generation tasks (e.g., machine translation). We observe that LLMs may forget the frontmost task instruction when the input sentence is long, thus we propose to simply place the task instruction after the input sentence (referred as "Post-Ins"). Both our theoretical and experimental analyses show that Post-Ins pays larger attentions on the model's instruction-following capabilities, yielding consistent performance improvements across two common sequence generation tasks. For more details, please refer to our [technical report](https://arxiv.org/abs/2308.12097) (Instruction Position Matters in Sequence Generation with Large Language Models).
 
 ## Requirements
-+ transformers==4.28.0.dev0+
-+ torch
-+ deepspeed==0.8.3+
-+ datasets==2.9.0+
++ transformers>=4.28.0.dev0+
++ python>=3.8.0
++ torch>=1.10
++ deepspeed>=0.8.3+
++ datasets>=2.9.0+
 
 
 ## Quick to Use
@@ -38,7 +39,7 @@ Current instruct-following data generally put the task instruction before the in
 
 + Testing
   ```bash
-  sh scripts/test_wmt.sh   # take the machine translation as an example
+  sh test/test_wmt.sh   # take the machine translation as an example
   ```
 
 
