@@ -62,7 +62,7 @@ We provide all the model [outputs](https://github.com/Adaxry/Post-Instruction/tr
 </p>
 
 <p align="center">
-  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/heatmap.png" alt="wmt" width="900"/>
+  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/heatmap_update.png" alt="wmt" width="900"/>
 </p>
 <p align="center">
   Pre-Ins mainly foucs on the source input, while Post-Ins pay more attentions on the specific task instruction.
