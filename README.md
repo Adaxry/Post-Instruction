@@ -65,9 +65,9 @@ We provide all the model [outputs](https://github.com/Adaxry/Post-Instruction/tr
 <p align="center">
   <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/heatmap_update.png" alt="wmt" width="900"/>
 </p>
-<p align="center">
-  Pre-Ins mainly foucs on the source input, while Post-Ins pay more attentions on the specific task instruction.
-</p>
+
+Pre-Ins mainly foucs on the source input, while Post-Ins pay more attentions on the specific task instruction. Here is an [example script](https://github.com/Adaxry/Post-Instruction/blob/main/scripts/plot_heatmap/plot_heatmap_attn.py) to plot the heatmap above.
+
 
 
 ## Citation
