@@ -37,7 +37,7 @@ TOKENIZERS_PARALLELISM=false
 HOST_NUM=1
 INDEX=0
 
-train_files=../data/data_alpaca_gpt4_hf_en_post_ins.json,../data/parrot_hint_data_hf.json,../data/wmt/post_ins_formetted/newtest16_20.de2en.fix_cxt3.post_ins.hf.json,../data/wmt/post_ins_formetted/newtest17_20.cn2en.fix_cxt3.post_ins.hf.json,../data/wmt/post_ins_formetted/newtest17_20.en2cn.fix_cxt3.post_ins.hf.json,../data/wmt/post_ins_formetted/newtest17_20.en2de.fix_cxt3.post_ins.hf.json
+train_files=../data/data_alpaca_gpt4_hf_en_post_ins.json,../data/parrot_hint_data_hf_post_ins.json,../data/wmt/post_ins_formetted/newtest16_20.de2en.fix_cxt3.post_ins.hf.json,../data/wmt/post_ins_formetted/newtest17_20.cn2en.fix_cxt3.post_ins.hf.json,../data/wmt/post_ins_formetted/newtest17_20.en2cn.fix_cxt3.post_ins.hf.json,../data/wmt/post_ins_formetted/newtest17_20.en2de.fix_cxt3.post_ins.hf.json
  
 
 torchrun --nnodes $HOST_NUM --node_rank $INDEX --nproc_per_node $gpu_num \
