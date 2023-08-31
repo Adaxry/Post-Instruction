@@ -28,7 +28,8 @@ Current instruct-following data generally put the task instruction before the in
 
 ## Quick to Use
 
-+ Organizing original data into Post-Ins format
++ Organizing original data into Post-Ins format  
+  We provide processed training data used in our experiments at [here](https://github.com/Adaxry/Post-Instruction/blob/main/data/README.md), and you can also process your sentence pairs into Post-Ins format by the following script:
   ```bash
   sh scripts/organize_data.sh    # you can replace the file with yours in this script
   ```
