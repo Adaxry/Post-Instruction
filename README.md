@@ -73,16 +73,11 @@ We provide all the model [outputs](https://github.com/Adaxry/Post-Instruction/tr
 ## Citation
 Please cite this paper if you find this repo useful.
 ```
-@inproceedings{liu_ss_decoding_2021,
-    title = "Scheduled Sampling Based on Decoding Steps for Neural Machine Translation",
-    author = "Liu, Yijin  and
-      Meng, Fandong  and
-      Chen, Yufeng  and
-      Xu, Jinan  and
-      Zhou, Jie",
-    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-    year = "2021",
-    address = "Online"
+@article{liu2023instruction,
+  title={Instruction Position Matters in Sequence Generation with Large Language Models},
+  author={Liu, Yijin and Zeng, Xianfeng and Meng, Fandong and Zhou, Jie},
+  journal={arXiv preprint arXiv:2308.12097},
+  year={2023}
 }
 ```
 
