@@ -12,11 +12,19 @@
 
 ## Overview
 <p align="center">
-  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/examples.png" alt="examples" width="800"/>
+  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/examples.png" alt="examples" width="850"/>
 </p>
 
 
-Current instruct-following data generally put the task instruction before the input sentence (referred as "Pre-Ins") for sequqnce generation tasks (e.g., machine translation). We observe that LLMs may forget the frontmost task instruction when the input sentence is long, thus we propose to simply place the task instruction after the input sentence (referred as "Post-Ins"). Both our theoretical and experimental analyses show that Post-Ins pays larger attentions on the model's instruction-following capabilities, yielding consistent performance improvements across two common sequence generation tasks. For more details, please refer to our [technical report](https://arxiv.org/abs/2308.12097) (Instruction Position Matters in Sequence Generation with Large Language Models).
+Current instruct-following data generally put the task instruction before the input sentence (referred as "Pre-Ins") for sequqnce generation tasks (e.g., machine translation). We observe that **LLMs may forget the frontmost task instruction** when the input sentence is long, thus we propose to simply place the task instruction after the input sentence (referred as "Post-Ins"). Both our theoretical and experimental analyses show that Post-Ins pays larger attentions on the model's instruction-following capabilities, yielding consistent performance improvements across two common sequence generation tasks. For more details, please refer to our [technical report](https://arxiv.org/abs/2308.12097).
+
+<p align="center">
+  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/heatmap_update.png" alt="wmt" width="900"/>
+</p>
+
+Here are self-attention visualizations of models in both data formats, and we find that Pre-Ins mainly foucs on the source input, while Post-Ins pay more attentions on the specific task instruction. Here is an [example script](https://github.com/Adaxry/Post-Instruction/blob/main/scripts/plot_heatmap/plot_heatmap_attn.py) to plot the heatmap above.
+
+
 
 ## Requirements
 + transformers>=4.28.0.dev0+
@@ -46,7 +54,7 @@ Current instruct-following data generally put the task instruction before the in
 
 
 ## Experiments
-We provide all the model [outputs](https://github.com/Adaxry/Post-Instruction/tree/main/results) for both the machine translation and text summarization task for an easy comparison. Below are partial results of the experiment:
+We provide all the [model outputs](https://github.com/Adaxry/Post-Instruction/tree/main/results) for both the machine translation and text summarization task for an easy comparison. Below are partial results of the experiment:
 
 <p align="center">
   <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/wmt22.png" alt="wmt" width="800"/>
@@ -61,12 +69,6 @@ We provide all the model [outputs](https://github.com/Adaxry/Post-Instruction/tr
 <p align="center">
   Results on CNN/DailyMail for long text summarization.
 </p>
-
-<p align="center">
-  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/heatmap_update.png" alt="wmt" width="900"/>
-</p>
-
-Pre-Ins mainly foucs on the source input, while Post-Ins pay more attentions on the specific task instruction. Here is an [example script](https://github.com/Adaxry/Post-Instruction/blob/main/scripts/plot_heatmap/plot_heatmap_attn.py) to plot the heatmap above.
 
 
 
