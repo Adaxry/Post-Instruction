@@ -25,6 +25,12 @@ Current instruct-following data generally put the task instruction before the in
 Here are self-attention visualizations of models in both data formats, and we find that Pre-Ins mainly foucs on the source input, while Post-Ins pay more attentions on the specific task instruction. Here is an [example script](https://github.com/Adaxry/Post-Instruction/blob/main/scripts/plot_heatmap/plot_heatmap_attn.py) to plot the heatmap above.
 
 
+<p align="center">
+  <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/equation.png" alt="wmt" width="900"/>
+</p>
+More formally, we have observed that the post-instruction format naturally encourages the model to pay more attention to task instruction, while the pre-instruction format places more emphasis on modeling coverage.
+
+
 
 ## Requirements
 + transformers>=4.28.0.dev0+
