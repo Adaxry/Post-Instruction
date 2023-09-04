@@ -28,7 +28,7 @@ Here are self-attention visualizations of models in both data formats, and we fi
 <p align="center">
   <img src="https://github.com/Adaxry/Post-Instruction/blob/main/figures/equation.png" alt="wmt" width="900"/>
 </p>
-More formally, we have observed that the post-instruction format naturally encourages the model to pay more attention to task instruction, while the pre-instruction format places more emphasis on modeling coverage.
+As shown in above equations, "inp", "inst" and "res" are abbreviations for "source input", "instruction", and "response", respectively. We have observed that the post-instruction format naturally encourages the model to pay more attention to task instruction, while the pre-instruction format places more emphasis on modeling coverage. 
 
 
 
