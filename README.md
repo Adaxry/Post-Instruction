@@ -50,7 +50,7 @@ As shown in above equations, "inp", "inst" and "res" are abbreviations for "sour
   
 + Fine-tuning LLMs
   ```bash
-  sh scripts/train_wmt.sh    # take the machine translation as an example
+  sh train/train_wmt.sh    # take the machine translation as an example
   ```
 
 + Testing
