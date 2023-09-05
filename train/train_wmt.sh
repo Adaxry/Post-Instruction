@@ -15,9 +15,6 @@ if [ $gpu_num -eq 4 ]; then
     accum_num=32
 elif [ $gpu_num -eq 8 ]; then
     accum_num=16
-else
-    echo "Unsupported GPU number: $gpu_num"
-    exit 1
 fi
 model_name=$your_model_name
 work_dir=$your_work_dir
